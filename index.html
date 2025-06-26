@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus Creative Lab - Experiencias Digitales</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <nav class="container">
+        <div class="logo">
+          <div class="logo-icon"></div>
+          <span class="logo-text">nexus</span>
+        </div>
+        <ul class="nav-menu">
+          <li style="--i: 0"><a href="#home">inicio</a></li>
+          <li style="--i: 1"><a href="#about">nosotros</a></li>
+          <li style="--i: 2"><a href="#services">servicios</a></li>
+          <li style="--i: 3"><a href="#team">equipo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section with Galaxy -->
+    <section id="home" class="hero">
+      <!-- P5.js Canvas Container -->
+      <div id="p5-container"></div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h1><span class="text-gradient">crear</span></h1>
+        <p>
+          experiencias digitales que trascienden los límites de la imaginación
+        </p>
+        <button class="hero-button">explorar</button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="animate-on-scroll">
+          <span class="text-gradient">nosotros</span>
+        </h2>
+        <div class="about-grid">
+          <div class="animate-on-scroll">
+            <p class="about-text">
+              somos un estudio que fusiona arte, tecnología y narrativa para
+              crear experiencias digitales únicas.
+            </p>
+            <p class="about-secondary">
+              nuestra galaxia representa el universo creativo donde cada
+              estrella simboliza una conexión diferente: diseño, desarrollo,
+              experiencia de usuario y tecnología inmersiva.
+            </p>
+          </div>
+          <div class="about-features glass-effect animate-on-scroll">
+            <div class="feature-item" style="--i: 0">
+              <div class="feature-dot"></div>
+              <span class="feature-text">diseño minimalista</span>
+            </div>
+            <div class="feature-item" style="--i: 1">
+              <div class="feature-dot"></div>
+              <span class="feature-text">desarrollo moderno</span>
+            </div>
+            <div class="feature-item" style="--i: 2">
+              <div class="feature-dot"></div>
+              <span class="feature-text">experiencias inmersivas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="animate-on-scroll">
+          <span class="text-gradient">servicios</span>
+        </h2>
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">⚡</div>
+            <h3 class="service-title">web design</h3>
+            <p class="service-description">
+              interfaces minimalistas que comunican con claridad y elegancia
+            </p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">⚙️</div>
+            <h3 class="service-title">development</h3>
+            <p class="service-description">
+              código limpio y arquitecturas escalables para aplicaciones
+              modernas
+            </p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">✨</div>
+            <h3 class="service-title">3d experiences</h3>
+            <p class="service-description">
+              mundos tridimensionales que conectan emocionalmente
+            </p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🎯</div>
+            <h3 class="service-title">ux strategy</h3>
+            <p class="service-description">
+              estrategias centradas en el usuario que optimizan resultados
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+      <div class="container">
+        <h2 class="animate-on-scroll">
+          <span class="text-gradient">Equipo</span>
+        </h2>
+        <div class="team-grid">
+          <!-- Team Member 1 -->
+          <div class="team-card animate-on-scroll">
+            <div class="team-avatar">AP</div>
+            <h3 class="team-name">Alejo Pequeño</h3>
+            <p class="team-role">Frontend & Creative Developer</p>
+            <p class="team-description">
+              Desarrollador frontend y creativo, con una pasión por la
+              tecnología y el diseño.
+            </p>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card animate-on-scroll">
+            <div class="team-avatar">jr</div>
+            <h3 class="team-name">javier rodríguez</h3>
+            <p class="team-role">lead developer</p>
+            <p class="team-description">
+              arquitecto de código limpio y tecnologías web modernas
+            </p>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card animate-on-scroll">
+            <div class="team-avatar">ls</div>
+            <h3 class="team-name">luna silva</h3>
+            <p class="team-role">3d artist</p>
+            <p class="team-description">
+              creadora de mundos visuales únicos y experiencias inmersivas
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <div class="footer-logo-icon"></div>
+          <span class="footer-logo-text">nexus creative lab</span>
+        </div>
+        <div class="footer-info">
+          <p>carrera: diseño multimedial</p>
+          <p>materia: diseño y programación web i</p>
+          <p>turno: [tu turno] | comisión: [tu comisión]</p>
+          <p>docente: [nombre del docente]</p>
+          <p>período: [mes y año de cursada]</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
