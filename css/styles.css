@@ -20,7 +20,7 @@ body {
   --color-border: #1a1a1a;
   --color-text: #ffffff;
   --color-text-muted: #888888;
-  --color-text-subtle: #f1f1f1;
+  --color-text-subtle: #CCCCCF;
   --color-accent: #ffffff;
   --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
